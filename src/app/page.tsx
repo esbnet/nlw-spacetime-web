@@ -21,7 +21,6 @@ export default async function Home() {
   const token = cookies().get('token-spacetime')?.value
 
   if (!token) {
-    console.log(' fas dlfas dljfasd lfasdl kf l')
     return (
       <div className="flex h-full w-full items-center justify-center">
         Faça login ou crie sua conta para acessar.
