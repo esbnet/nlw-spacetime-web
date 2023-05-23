@@ -1,11 +1,11 @@
 import { EmptyMemories } from '@/components/EmptyMemories'
 import { api } from '@/lib/api'
-import { cookies } from 'next/headers'
 import dayjs from 'dayjs'
 import ptBR from 'dayjs/locale/pt-br'
+import { ArrowRight } from 'lucide-react'
+import { cookies } from 'next/headers'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowRight } from 'lucide-react'
 
 dayjs.locale(ptBR)
 
@@ -19,14 +19,6 @@ interface Memory {
 export default async function Home() {
   const isAuthenticated = cookies().has('token-spacetime')
   const token = cookies().get('token-spacetime')?.value
-
-  if (!token) {
-    return (
-      <div className="flex h-full w-full items-center justify-center">
-        Faça login ou crie sua conta para acessar.
-      </div>
-    )
-  }
 
   if (!isAuthenticated) {
     return <EmptyMemories />
