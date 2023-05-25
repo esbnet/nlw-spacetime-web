@@ -78,7 +78,7 @@ Após este processo, de posse do `access_token`, os clientes poderão realizar c
 
 <a id="install"></a>
 
-## Instalando e Rodar a Aplicação
+## Instação e Execução
 
 1. Criar no github uma aplicação [Veja como](#registroGithub)
 
