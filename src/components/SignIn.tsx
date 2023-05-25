@@ -12,7 +12,7 @@ export default function SignIn() {
         <User className="h-5 w-5 text-gray-500" />
       </div>
       <p className="max-w-[140px] text-sm leading-snug">
-        <span className="underline">Crei sua conta</span> e salve suas memórias!
+        <span className="underline">Crie sua conta</span> e salve suas memórias!
       </p>
     </a>
   )
