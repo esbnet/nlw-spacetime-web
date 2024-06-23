@@ -211,11 +211,3 @@ Atalho:
 | 5. Preencha os campos com os dados abaiso: <br>spacetime-web<br>http://localhost:3000<br>(opcional)<br>http://localhost:3000/ (para onde será redirecionado após o login) | ![imagem de configurações](./src/assets/OAuthAplication.png) |
 
 ---
-
-<div align="center">
-
-Este projeto foi construido durante um dos bootcamps promovido gratuitamente pela [rockeseat 🚀](https://rocketseat.com.br) que vem ajudando a carreira de milhares de devs em todo o Brasil. Parabéns aos envolvido!!
-<br>
-![imagem de configurações](./src/assets/rocketseat-logo.svg)
-
-</div>
